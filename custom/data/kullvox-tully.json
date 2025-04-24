@@ -187,14 +187,14 @@
                     }
                 ],
                 "abilities": [
+                    "Order: Charging Volley",
                     "Cavalry",
-                    "Handpicked Hunters",
-                    "Order: Charging Volley"
+                    "Handpicked Hunters"
                 ],
                 "requirements": [
                     {
                         "name": "Character",
-                        "text": "*May only be fielded in an army containing Brynden Tully, Knight of the Gate. He must be attached to this unit at no cost.*"
+                        "text": "*May only be fielded in an army containing Brynden Tully, Outrider's Bane. He must be attached to this unit at no cost.*"
                     }
                 ],
                 "tray": "cavalry"
@@ -259,8 +259,8 @@
                         }
                     ],
                     "abilities": [
-                        "Cavalry",
                         "Order: Riverlands Gallantry",
+                        "Cavalry",
                         "Embolden"
                     ],
                     "tray": "cavalry"
@@ -336,8 +336,8 @@
                     }
                 ],
                 "abilities": [
-                    "Heated Shot",
-                    "Order: Overwatch"
+                    "Order: Overwatch",
+                    "Heated Shot"
                 ],
                 "tray": "infantry"
             },
@@ -379,8 +379,8 @@
                     }
                 ],
                 "abilities": [
-                    "Weirwood Bow",
-                    "Order: Tactical Reposition"
+                    "Order: Tactical Reposition",
+                    "Weirwood Bow"
                 ],
                 "requirements": [
                 {
@@ -417,9 +417,9 @@
                     }
                 ],
                 "abilities": [
+                    "Cavalry",
                     "Glaive",
-                    "Disrupt",
-                    "Cavalry"
+                    "Disrupt"
                 ],
                 "requirements": [
                     {
@@ -521,8 +521,8 @@
                 "type": "infantry",
                 "cost": "C",
                 "abilities": [
-                    "Boisterous Charisma",
-                    "Order: Taunt"
+                    "Order: Taunt",
+                    "Boisterous Charisma"
                 ],
                 "commander": true,
                 "character": true
@@ -699,9 +699,9 @@
                 "type": "cavalry",
                 "cost": "C",
                 "abilities": [
-                    "Affiliation: House Blackwood",
+                    "Furious Charge",
                     "Swift Strike",
-                    "Furious Charge"
+                    "Affiliation: House Blackwood"
                 ],
                 "commander": true,
                 "character": true
@@ -743,9 +743,9 @@
                 "type": "infantry",
                 "cost": "C",
                 "abilities": [
-                    "Affiliation: House Bracken",
                     "Order: Overrun",
-                    "Order: Threaten"
+                    "Order: Threaten",
+                    "Affiliation: House Bracken"
                 ],
                 "commander": true,
                 "character": true
@@ -780,12 +780,12 @@
         {
             "id": "brynden-tully-ca",
             "name": "Brynden Tully",
-            "subname": "Knight of the Gate",
+            "subname": "Outrider's Bane",
             "statistics": {
                 "version": "S06 V1",
                 "faction": "tully",
                 "type": "cavalry",
-                "cost": 2,
+                "cost": 1,
                 "abilities": [
                     "Order: Sentinel",
                     "Pathfinder"
@@ -857,8 +857,8 @@
                 "type": "infantry",
                 "cost": 1,
                 "abilities": [
-                    "Affiliation: House Mallister",
-                    "Order: Hawk Strike"
+                    "Order: Hawk Strike",
+                    "Affiliation: House Mallister"
                 ],
                 "character": true
             },
@@ -927,8 +927,8 @@
                 "type": "infantry",
                 "cost": 1,
                 "abilities": [
-                    "Rivalrous Conviction",
-                    "Order: Threaten"
+                    "Order: Threaten",
+                    "Rivalrous Conviction"
                 ],
                 "character": true
             },
@@ -962,7 +962,8 @@
                 "type": "infantry",
                 "cost": 1,
                 "abilities": [
-                    "Reckless Strikes"
+                    "Reckless Strikes",
+                    "Go Down Fighting"
                 ],
                 "character": true
             },
@@ -996,6 +997,7 @@
                 "type": "infantry",
                 "cost": 1,
                 "abilities": [
+                    "Order: Hold the Line!",
                     "Hardened"
                 ],
                 "character": true
@@ -1105,8 +1107,9 @@
                 "type": "infantry",
                 "cost": 1,
                 "abilities": [
+                    "Order: Swift Retreat",
                     "Affiliation: House Blackwood",
-                    "Order: Swift Retreat"
+                    "Enhanced Mobility"
                 ],
                 "character": true
             },
@@ -1140,8 +1143,8 @@
                 "type": "infantry",
                 "cost": 1,
                 "abilities": [
-                    "Affiliation: House Bracken",
-                    "Order: Bastard's Retribution"
+                    "Order: Bastard's Retribution",
+                    "Affiliation: House Bracken"
                 ],
                 "character": true
             },
@@ -1172,10 +1175,10 @@
                 "version": "S06 V1",
                 "faction": "tully",
                 "type": "infantry",
-                "cost": 2,
+                "cost": 1,
                 "abilities": [
-                    "Unyielding",
-                    "Order: Resilience"
+                    "Order: Resilience",
+                    "Unyielding"
                 ]
             },
             "portrait": {
@@ -1204,7 +1207,8 @@
                 "type": "infantry",
                 "cost": 1,
                 "abilities": [
-                    "Order: Mark Target"
+                    "Order: Mark Target",
+                    "Rally Banner"
                 ]
             },
             "portrait": {
@@ -1263,7 +1267,8 @@
                 "type": "infantry",
                 "cost": 1,
                 "abilities": [
-                    "Order: Adaptive Planning"
+                    "Order: Adaptive Planning",
+                    "Order: Sentinel"
                 ]
             },
             "portrait": {
@@ -1292,7 +1297,8 @@
                 "type": "infantry",
                 "cost": 1,
                 "abilities": [
-                    "Agile"
+                    "Agile",
+                    "Pathfinder"
                 ],
                 "requirements": [
                     {
@@ -1387,7 +1393,7 @@
                 "cards": {
                     "battlefield-provisions": "Battlefield Provisions",
                     "true-agenda": "True Agenda",
-                    "rapid-construction": "Predictable Maneuvers"
+                    "predictable-maneuvers": "Predictable Maneuvers"
                 }
             }
         },
@@ -2367,10 +2373,11 @@
         },
         "MALLISTER ASCENDANCY": {
             "effect": [
-                "Gain the following based on which Condition tokens are on this unit *(effects are cumulative)*:",
-                "• **Panicked:** Defender suffers +2 Wounds from failed Panic Test Rolls.",
-                "• **Vulnerable:** Defender loses any Abilities until the end of the Turn.",
-                "• **Weakened:** Before rolling Attack Dice this unit restores 2 Wounds."
+                "Each time this unit performs a Melee Attack, before rolling Attack Dice choose 1, for each Condition token on this unit, choose +1:",
+                "• **Precision**",
+                "• **Critical Blow**",
+                "• **Sundering**",
+                "• This unit restores 2 Wounds."
             ],
             "icons": [
                 "melee"
