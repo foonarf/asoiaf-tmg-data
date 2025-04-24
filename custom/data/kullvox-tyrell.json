@@ -732,8 +732,8 @@
                 "version": "S06 V1",
                 "faction": "tyrell",
                 "type": "infantry",
-                "cost": 2,
-                "abilities": ["Order: Reckless Heroism", "Furious Charge"],
+                "cost": 1,
+                "abilities": ["Order: Reckless Heroism", "Furious Charge", "Dauntless"],
                 "character": true
             },
             "fluff": {
@@ -905,7 +905,7 @@
                 "version": "S06 V1",
                 "faction": "tyrell",
                 "type": "infantry",
-                "cost": 2,
+                "cost": 1,
                 "abilities": ["Boisterous Charisma", "Stalwart"],
                 "character": true
             },
