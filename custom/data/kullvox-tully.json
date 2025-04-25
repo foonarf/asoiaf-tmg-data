@@ -1336,7 +1336,7 @@
                 "type": "cavalry",
                 "cost": 1,
                 "abilities": [
-                    "Counterstrike"
+                    "Counterstrike", "Weaken Resolve"
                 ],
                 "requirements": [
                     {
