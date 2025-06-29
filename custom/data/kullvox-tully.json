@@ -1522,7 +1522,7 @@
         "name": "Rymund the Rhymer",
         "subname": "Clever Harper",
         "statistics": {
-            "version": "S06 V1",
+            "version": "S06 V2",
             "faction": "tully",
             "cost": 4,
             "abilities": [
@@ -1530,7 +1530,7 @@
                     "name": "Songs of Valor",
                     "effect": [
                         "**Influence** (*When this unit Claims a zone, attach this card to a Combat Unit until the end of the Round*):",
-                        "Each time Rymund Influences a Tully Infantry Unit, that unit gains +1 to Hit when performing Melee Attacks and +1 to Morale Test rolls."
+                        "Each time Rymund Influences a Tully Infantry Unit, that unit's Melee Attack To Hit Value becomes 3+ and gains +1 to Morale Test rolls."
                     ]
                 }
             ]
