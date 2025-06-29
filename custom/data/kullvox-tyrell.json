@@ -300,7 +300,7 @@
             "id": "tyrell-captain",
             "name": "Tyrell Captain",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tyrell",
                 "type": "cavalry",
                 "cost": 4,
@@ -311,7 +311,7 @@
                     {
                         "name": "Sword",
                         "type": "melee",
-                        "hit": 4,
+                        "hit": 3,
                         "dice": [3]
                     }
                 ],
@@ -729,11 +729,11 @@
             "name": "Loras Tyrell",
             "subname": "The Third Rose",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tyrell",
                 "type": "infantry",
-                "cost": 1,
-                "abilities": ["Order: Reckless Heroism", "Furious Charge", "Dauntless"],
+                "cost": 2,
+                "abilities": ["Order: Reckless Heroism", "Furious Charge", "Deadly Bloom"],
                 "character": true
             },
             "fluff": {
