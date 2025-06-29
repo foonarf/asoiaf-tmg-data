@@ -390,11 +390,11 @@
             "name": "Ser Loras Tyrell",
             "subname": "The Tournament Champion",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tyrell",
                 "type": "cavalry",
                 "cost": 4,
-                "speed": 6,
+                "speed": 5,
                 "defense": 3,
                 "morale": 3,
                 "attacks": [
