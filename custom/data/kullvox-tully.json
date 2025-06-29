@@ -50,7 +50,7 @@
               "id": "tully-cavaliers",
               "name": "Tully Cavaliers",
               "statistics": {
-                  "version": "S06 V1",
+                  "version": "S06 V2",
                   "faction": "tully",
                   "type": "cavalry",
                   "cost": 8,
@@ -83,7 +83,7 @@
             "id": "riverrun-defenders",
             "name": "Riverrun Defenders",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tully",
                 "type": "infantry",
                 "cost": 6,
@@ -159,7 +159,7 @@
             "id": "blackfishs-riders",
             "name": "Blackfish's Riders",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tully",
                 "type": "cavalry",
                 "cost": 7,
@@ -349,7 +349,7 @@
             "id": "house-blackwood-prowlers",
             "name": "House Blackwood Prowlers",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tully",
                 "type": "infantry",
                 "cost": 7,
@@ -385,7 +385,7 @@
                 "requirements": [
                 {
                     "name": "Rivalry",
-                    "text": "*If your army contains Jonos Bracken or any House Bracken unit, this unit's cost is increased by 1.*"
+                    "text": "*If your army contains Jonos Bracken or any House Bracken unit, the cost of the first Rivaly unit is increased by 1.*"
                 }
                 ],
                 "tray": "infantry"
@@ -398,13 +398,13 @@
             "id": "house-bracken-dragoons",
             "name": "House Bracken Dragoons",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tully",
                 "type": "cavalry",
                 "cost": 6,
                 "speed": 6,
                 "defense": 5,
-                "morale": 7,
+                "morale": 6,
                 "attacks": [
                     {
                         "name": "Glaive",
@@ -424,7 +424,7 @@
                 "requirements": [
                     {
                         "name": "Rivalry",
-                        "text": "*If your army contains Tytos Blackwood or any House Blackwood unit, this unit's cost is increased by 1.*"
+                        "text": "*If your army contains Tytos Blackwood or any House Blackwood unit, the cost of the first Rivaly unit is increased by 1.*"
                     }
                 ],
                 "tray": "cavalry"
@@ -437,7 +437,7 @@
             "id": "house-mallister-eagle-guardians",
             "name": "House Mallister Eagle Guardians",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tully",
                 "type": "infantry",
                 "cost": 7,
@@ -992,7 +992,7 @@
             "name": "Robin Ryger",
             "subname": "Captain of the Guard",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tully",
                 "type": "infantry",
                 "cost": 1,
@@ -1172,13 +1172,12 @@
             "id": "mallister-shield-bearer-a",
             "name": "Mallister Shield Bearer",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tully",
                 "type": "infantry",
                 "cost": 1,
                 "abilities": [
-                    "Order: Resilience",
-                    "Unyielding"
+                    "Order: Resilience"
                 ]
             },
             "portrait": {
@@ -1202,7 +1201,7 @@
             "id": "riverrun-sentry-a",
             "name": "Riverrun Sentry",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tully",
                 "type": "infantry",
                 "cost": 1,
@@ -1265,7 +1264,7 @@
                 "version": "S06 V1",
                 "faction": "tully",
                 "type": "infantry",
-                "cost": 1,
+                "cost": 2,
                 "abilities": [
                     "Order: Adaptive Planning",
                     "Order: Sentinel"
@@ -1292,7 +1291,7 @@
             "id": "ravens-talon-a",
             "name": "Raven's Talon",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tully",
                 "type": "infantry",
                 "cost": 1,
@@ -1331,12 +1330,13 @@
             "id": "stone-hedge-stallion-a",
             "name": "Stone Hedge Stallion",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tully",
                 "type": "cavalry",
                 "cost": 1,
                 "abilities": [
-                    "Counterstrike", "Weaken Resolve"
+                    "Counterstrike", 
+                    "Weaken Resolve"
                 ],
                 "requirements": [
                     {
@@ -1402,7 +1402,7 @@
         "name": "Edmure Tully",
         "subname": "Heir of Riverrun",
         "statistics": {
-            "version": "S06 V1",
+            "version": "S06 V2",
             "faction": "tully",
             "cost": 5,
             "abilities": [
@@ -1410,9 +1410,9 @@
                     "name": "Eager for Glory",
                     "effect": [
                         "Each time Edmure Claims [LETTER] you may replace that zone's effect with:",
-                        "*1 friendly unit performs 1 Melee Attack Action.*",
+                        "*1 friendly unit performs 1 Melee Attack Action using its lowest Attack Die Value.*",
                         "Each time Edmure Claims [HORSE] you may replace that zone's effect with:",
-                        "*1 friendly unit performs 1 Charge Action.*"
+                        "*1 friendly unit performs 1 Charge Action using its lowest Attack Die Value.*"
                     ]
                 }
             ]
@@ -1936,13 +1936,12 @@
             "id": "blackfishs-infamy",
             "name": "Blackfish's Infamy",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tully",
                 "text": [
                     {
                         "trigger": "When an enemy in Long Range of Brynden Tully's unit Activates:",
                         "effect": [
-                            "Attach this card to that unit until Brynden Tully's unit is destroyed.",
                             "If that unit performs an Attack or Charge Action this turn, before rolling Attack Dice, they become **Vulnerable** and then suffer 3 Hits.",
                             "If you Control [HORSE] that unit also becomes **Weakened**."
                         ]
@@ -2193,13 +2192,13 @@
             "id": "sortie-tactics",
             "name": "Sortie Tactics",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tully",
                 "text": [
                     {
                         "trigger": "After an enemy completes a Melee Atack:",
                         "effect": [
-                            "Target 1 friendly House Blackwood unit in Long Range of the Defender. It performs 1 Charge or Retreat Action:"
+                            "Target 1 friendly House Blackwood unit in Long Range of the Defender. It becomes **Vulnerable**, then performs 1 Charge or Retreat Action."
                         ]
                     }
                 ],
@@ -2487,6 +2486,14 @@
             ],
             "icons": [
                 "melee"
+            ]
+            },
+        "VETERANCY": {
+            "effect": [
+                "This unit may not be targeted by enemy Tactics Cards or Influenced by enemy NCUs. While engaged with this unit, enemies may not be the target of Tactics Cards or influenced by friendly NCUs."
+            ],
+            "icons": [
+                "wounds"
             ]
         }
     }
