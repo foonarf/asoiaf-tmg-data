@@ -733,7 +733,7 @@
                 "faction": "tyrell",
                 "type": "infantry",
                 "cost": 2,
-                "abilities": ["Order: Reckless Heroism", "Furious Charge", "Deadly Bloom"],
+                "abilities": ["Order: Reckless Heroism", "Furious Charge", "Dauntless"],
                 "character": true
             },
             "fluff": {
