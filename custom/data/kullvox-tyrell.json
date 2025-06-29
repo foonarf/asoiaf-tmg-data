@@ -360,13 +360,13 @@
             "id": "house-tarly-enforcers",
             "name": "House Tarly Enforcers",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tyrell",
                 "type": "infantry",
                 "cost": 5,
                 "speed": 5,
                 "defense": 4,
-                "morale": 7,
+                "morale": 6,
                 "attacks": [
                     {
                         "name": "Enforcer's Spear",
@@ -1311,15 +1311,18 @@
             "name": "Willas Tyrell",
             "subname": "Heir of Highgarden",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tyrell",
                 "cost": 4,
                 "abilities": [
                     {
                         "name": "Gentle, Pious, and Good-Hearted",
                         "effect": [
-                            "Each time Willas Claims a zone, you may replace that zone's effect with:",
-                            "Remove 1 Condition Token from that friendly unit, restore 2 Wounds (total) across any number of friendly units. Draw 1 Tactics card."
+                            "Willas begins the game with 1 Order token.",
+                            "Each time Willas Claims a zone he gains 1 Order token. Each time another friendly NCU claims a zone, after resolving that zone's effect, you may remove 1 Order token from Willas. If you do, choose 1:",
+                            "• Remove 1 Condition token from a friendly unit.",
+                            "• Restore 2 Wounds (total) across any number of friendly units.",
+                            "• Draw 1 Tactics Card."
                         ]
                     }
                 ]
@@ -1470,9 +1473,9 @@
             "name": "Gormon",
             "subname": "Ravencraft Maester",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tyrell",
-                "cost": 5,
+                "cost": 4,
                 "abilities": [
                     {
                         "name": "Ravencraft Expertise",
@@ -1551,16 +1554,16 @@
             "name": "Paxter Redwyne",
             "subname": "Lord Admiral",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tyrell",
-                "cost": 4,
+                "cost": 5,
                 "abilities": [
                     {
                         "name": "War Machines at Sea",
                         "effect": [
                             "Each time Paxter Claims a zone, you may replace that zone's effect with:",
                             "*Make the following Ranged Attack on 1 enemy Combat Unit:*",
-                            "[ATTACK:Ranged:Naval Volley:3+6]",
+                            "[ATTACK:Ranged:Naval Volley:3+5]",
                             "*After resolving this Attack, choose 1 friendly unit engaged with the Defender. For each Miss, that unit suffers 1 Hit.*"
                         ]
                     }
@@ -1966,11 +1969,11 @@
             "id": "a-rousing-speech",
             "name": "A Rousing Speech",
             "statistics": {
-                "version": "S06 V1",
+                "version": "S06 V2",
                 "faction": "tyrell",
                 "text": [
                     {
-                        "trigger": "When an infantry unit is performing an Attack, before rolling Attack Dice:",
+                        "trigger": "When an infantry unit is performing a Melee Attack, before rolling Attack Dice:",
                         "effect": [
                             "This unit gains **Critical Blow** and **Sundering**.",
                             "After the Attack is completed, if the Defender was not destroyed, this unit suffers a Panic Test with -2 to their roll."
