@@ -225,7 +225,7 @@
             "faction": "arryn",
             "version": "v1.8",
             "role": "unit",
-            "tray": "cavalry",
+            "tray": "solo",
             "icon": "cavalry",
             "cost": 4,
             "speed": 4,
