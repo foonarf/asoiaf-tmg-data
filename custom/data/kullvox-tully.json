@@ -244,7 +244,7 @@
             ],
             "defense": 3,
             "morale": 6,
-            "speed": 4,
+            "speed": 5,
             "cost": 6,
             "tray": "infantry",
             "fluff": {
